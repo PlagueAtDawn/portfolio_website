@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="fonts.css" />
     <link rel="stylesheet" href="general.css" />
     <link rel="stylesheet" href="color.css" />
+    <link rel="stylesheet" href="burger.css" />
     <link rel="stylesheet" href="media.css" />
-    <link rel="stylesheet" href="fonts.css" />
+
     <!--google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,23 +27,21 @@
       <div class="logo">
         <a href="index.html" class="active"><img src="pics/Bunny.webp" alt="logo" /> </a>
       </div>
-      <nav>
-        <ul>
-          <ul class="menu">
-            <li class="project_link"><a href="projects.html">Projects</a></li>
-            <li class="aboutme_link"><a href="aboutme.html">About me</a></li>
-          </ul>
+      <nav class="desktop">
+        <ul class="menu_long">
+          <li class="project_link"><a href="projects.html">Projects</a></li>
+          <li class="aboutme_link"><a href="aboutme.html">About me</a></li>
         </ul>
       </nav>
+
       <div class="off_screen_menu">
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="aboutme.html">About me</a></li>
         </ul>
       </div>
 
-      <nav>
+      <nav class="mobile_nav">
         <div class="ham_menu">
           <span></span>
           <span></span>
@@ -62,12 +62,10 @@
       <div class="logo">
         <a href="index.html"><img src="pics/Bunny.webp" alt="logo" /></a>
       </div>
-      <nav>
-        <ul>
-          <ul class="menu">
-            <li class="linktr"><a href="https://linktr.ee/plagueatdawn">linktr</a></li>
-            <p class="mail">caha1007@stud.ek.dk</p>
-          </ul>
+      <nav class="footer_nav">
+        <ul class="footer_menu">
+          <li><a href="https://linktr.ee/plagueatdawn">linktr</a></li>
+          <li class="mail">caha1007@stud.ek.dk</li>
         </ul>
       </nav>
     </footer>
