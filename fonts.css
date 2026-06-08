@@ -1,0 +1,54 @@
+/**** Index ****/
+.h1_index {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+  font-family: "Indie Flower", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.project_link {
+  font-family: "Indie Flower", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.aboutme_link {
+  font-family: "Indie Flower", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.linktr {
+  font-family: "Calligraffitti", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.mail {
+  font-family: "Calligraffitti", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/**** Projects ****/
+.h1_projects {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/**** About me ****/
+.h1_aboutme {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
