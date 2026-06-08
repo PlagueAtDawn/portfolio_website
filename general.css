@@ -42,22 +42,22 @@ header {
   width: 100px;
 }
 
-.menu {
+.menu_long {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.menu li {
+.menu_long li {
   margin-right: 20px;
 }
 
-.menu li:last-child {
+.menu_long li:last-child {
   margin-right: 0;
 }
 
-.menu a {
+.menu_long a {
   display: block;
   padding: 10px;
   color: #000000;
@@ -66,8 +66,12 @@ header {
   text-align: end;
 }
 
-.menu a:hover {
+.menu_long a:hover {
   color: #558e55;
+}
+
+.menu_short {
+  display: none;
 }
 footer {
   position: sticky;
@@ -87,15 +91,6 @@ h1 {
   margin-block: 10px;
 }
 
-@media (max-width: 800px) {
-  .menu {
-    display: none;
-  }
-  .h1_index {
-    text-align: center;
-    margin-block: 10px;
-  }
-}
 /********* Index ***********/
 
 /********* Projects ***********/
@@ -113,4 +108,12 @@ h1 {
   gap: 10px;
   margin-inline: 10px;
   margin-block: 10px;
+}
+@media (max-width: 1200px) {
+  .menu_short {
+    display: block;
+  }
+  .menu_long {
+    display: none;
+  }
 }
