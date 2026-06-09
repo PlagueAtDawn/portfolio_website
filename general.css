@@ -120,16 +120,6 @@ footer {
     margin-block: 10px;
   }
 }
-/********* Index ***********/
-
-/********* Projects ***********/
-[popover] {
-  margin: auto;
-}
-[popover] img {
-  max-width: 600px;
-}
-
 /********* ABout me ***********/
 .grid-aboutme_1-1 {
   display: grid;

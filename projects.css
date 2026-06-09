@@ -1,0 +1,124 @@
+/********* Projects ***********/
+
+.h1_projects {
+  text-align: center;
+  margin: 20px 0;
+}
+
+article {
+  margin-bottom: 40px;
+}
+
+/********* Projects mobile ***********/
+main {
+  padding: 20px;
+}
+
+.h1_projects {
+  text-align: center;
+  margin: 20px auto;
+  width: 100%;
+}
+
+article h2 {
+  text-align: center;
+  margin: 20px auto;
+  width: 100%;
+}
+
+article img {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 40px;
+}
+
+article p {
+  width: 100%;
+  margin: 10px auto;
+  padding: 8px;
+  background: transparent;
+  color: black;
+}
+article button {
+  display: block;
+  margin: 10px auto 40px;
+}
+
+[popover] {
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  top: 180px;
+  max-height: 70vh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+[popover] img {
+  width: 90%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+[popover]::backdrop {
+  backdrop-filter: blur(10px);
+}
+
+@media (min-width: 801px) {
+  article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+    grid-template-rows: auto auto auto;
+  }
+
+  .left_image img {
+    grid-column: 1;
+    grid-row: 1 / 4;
+  }
+
+  .left_image h2,
+  .left_image p,
+  .left_image button {
+    grid-column: 2;
+  }
+
+  .right_image img {
+    grid-column: 2;
+    grid-row: 1 / 4;
+  }
+
+  .right_image h2,
+  .right_image p,
+  .right_image button {
+    grid-column: 1;
+  }
+
+  article h2 {
+    text-align: left;
+    margin: 0;
+    grid-row: 1;
+  }
+
+  article p {
+    margin: 10px 0;
+    grid-row: 2;
+  }
+
+  article button {
+    margin: 0;
+    width: fit-content;
+    grid-row: 3;
+  }
+
+  .left_image,
+  .right_image {
+    grid-template-rows: auto auto auto;
+  }
+  .left_image,
+  .right_image {
+    align-items: start;
+  }
+}
