@@ -4,12 +4,6 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
-  /********* Index ***********/
-  .grid_1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
   /********* Projects ***********/
 
   /********* About me ***********/

@@ -1,0 +1,37 @@
+.h1_index {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.front_page_pic {
+  width: 75%;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.grid_1-1 p {
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .h1_index {
+    text-align: center;
+    margin-block: 10px;
+  }
+
+  .grid_1-1 {
+    display: block;
+  }
+
+  .front_page_pic {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .grid_1-1 p {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
