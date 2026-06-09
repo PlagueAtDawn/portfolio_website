@@ -1,0 +1,45 @@
+.h1_aboutme {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.grid-aboutme_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+  width: 90%;
+  margin: 20px auto;
+  align-items: start;
+}
+
+.grid-aboutme_1-1 img {
+  width: 100%;
+  border-radius: 40px;
+}
+
+.grid-aboutme_1-1 p {
+  margin: 0;
+}
+
+.programs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.programs img {
+  width: 22%;
+  margin: 0;
+  border-radius: 20px;
+}
+
+.program_text {
+  text-align: center;
+  width: 90%;
+  margin: 20px auto;
+}
+.grid-aboutme_1-1 h2 {
+  margin-bottom: 15px;
+}
