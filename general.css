@@ -103,6 +103,10 @@ footer {
   gap: 40px;
   align-items: center;
 }
+.footer_menu a {
+  text-decoration: none;
+  color: black;
+}
 
 @media (max-width: 800px) {
   .menu_long {
@@ -116,10 +120,3 @@ footer {
   }
 }
 /********* ABout me ***********/
-.grid-aboutme_1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  margin-inline: 10px;
-  margin-block: 10px;
-}

@@ -1,0 +1,126 @@
+/*** front page **/
+.section_line {
+  width: 80%;
+  height: 4px;
+  background-color: #503120;
+  margin: 50px auto;
+  border-radius: 999px;
+}
+/*** projects **/
+.left_image {
+  background-color: #503120;
+  padding: 30px;
+  border-radius: 40px;
+  color: #fff9f5;
+}
+
+.left_image h2,
+.left_image p {
+  color: #fff9f5;
+}
+
+.right_image {
+  background-color: transparent;
+}
+
+[popover] h2,
+[popover] p,
+[popover] button {
+  color: black;
+}
+/*** About Me ***/
+
+.about_intro {
+  background-color: #503120;
+  padding: 30px;
+  border-radius: 40px;
+  margin: 20px 0;
+}
+
+.about_intro h2,
+.about_intro p {
+  color: #fff9f5;
+}
+
+.about_programs {
+  margin: 20px 0;
+}
+
+.programs {
+  background-color: #503120;
+  padding: 30px;
+  border-radius: 40px;
+}
+/*** everything else **/
+html,
+body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #bfdef3 0%, #fff9f5 60%);
+}
+
+.menu_long a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff9f5;
+  text-decoration: none;
+  background-color: #503120;
+  border-radius: 10px;
+  transition: color 0.3s;
+}
+.menu_long a:hover {
+  background-color: #f5bebc;
+  color: #503120;
+  border: 3px solid #503120;
+}
+
+.footer_menu a {
+  background-color: #503120;
+  color: #fff9f5;
+  text-decoration: none;
+  padding: 6px 16px;
+  border: 3px solid #503120;
+  border-radius: 1000px;
+}
+
+.footer_menu a:hover {
+  background-color: #f5bebc;
+  color: #503120;
+  border: 3px solid #503120;
+}
+
+header,
+footer {
+  background-color: #f5bebc;
+  box-shadow: inset 0 0 30px #503120;
+}
+.mail {
+  background-color: #503120;
+  color: #fff9f5;
+  padding: 6px 16px;
+  border: 3px solid #503120;
+  border-radius: 1000px;
+}
+
+.off_screen_menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.off_screen_menu a,
+.off_screen_menu a:visited,
+.off_screen_menu a:hover,
+.off_screen_menu a:active {
+  background-color: #503120;
+  color: #fff9f5;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.off_screen_menu {
+  background-color: #f5bebc;
+  box-shadow: inset 0 0 30px #503120;
+}
