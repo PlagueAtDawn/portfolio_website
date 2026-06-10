@@ -40,6 +40,13 @@ header {
 .logo {
   width: 100px;
 }
+
+.logo img {
+  background-color: #503120;
+  border-radius: 25px;
+  padding: 3px;
+}
+
 .desktop {
   margin-left: auto;
   margin-right: 40px;
